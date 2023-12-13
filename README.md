@@ -12,7 +12,7 @@ There are many guides for setting up a Very Slow Movie Player. I settled on this
 
 https://desertbot.io/blog/headless-raspberry-pi-zero-w-2-ssh-wifi-setup-mac-windows-10-steps
 
-Note: the DNS name for this installation is `jefferson.local`, login name is `becky`.
+Note: the DNS name for this installation is `webster.local`.
 
 ## Remote Access and SSH
 
@@ -21,7 +21,7 @@ See: https://www.raspberrypi.com/documentation/computers/remote-access.html
 The Raspi WiFi works on 2.4g. Network bridging allows you to SSH into the unit from the 5g network.
 
 ```
-ssh becky@jefferson.local
+ssh becky@webster.local
 ```
 
 ## Passwordless SSH Access
@@ -161,13 +161,13 @@ worked great.
 To copy movies from my Mac over, I stopped the service and, on the Mac, copied the movies over to the Pi using SCP:
 
 ```
-scp /Path/To/Some.mp4 becky@jefferson.local:SlowMovie/Videos/
+scp /Path/To/Some.mp4 becky@webster.local:SlowMovie/Videos/
 ```
 
 for example, in Terminal on your Mac:
 
 ```
-scp /Users/becky/Downloads/shrunk_videos_for_epaper/n-wEvzqdDZg_shrunk.mp4 becky@jefferson.local:SlowMovie/Videos/
+scp /Users/becky/Downloads/shrunk_videos_for_epaper/n-wEvzqdDZg_shrunk.mp4 becky@webster.local:SlowMovie/Videos/
 ```
 
 ## Pysical Display Size
