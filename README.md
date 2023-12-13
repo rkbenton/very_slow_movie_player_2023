@@ -1,4 +1,4 @@
-# Building an ePaper SlowMovie Display
+# Building an ePaper Slow Movie Display
 
 Walkthru of my 2023 Very Slow Movie Player build on a Raspi Zero W 2
 
